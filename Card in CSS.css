@@ -1,0 +1,33 @@
+.container {
+  height: 420px;
+  width: 320px;
+  perspective: 500px;
+  position: relative;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+
+.card:hover {
+  
+  transform: rotateY(180deg); 
+  transform-origin: bottom left;
+}
+
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.card .back {
+  color: gray;
+  transform: rotateY(180deg);
+  background: #e6d690;
+ 
