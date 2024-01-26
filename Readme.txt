@@ -10,3 +10,6 @@ https://es.wikipedia.org/wiki/React
 
 Exercise A - HTML & CSS
 https://codepen.io/JudithHM/pen/JjzOovQ?editors=1100
+
+Link of the project that was forked
+https://github.com/JudithHM/English-level-up-tips
